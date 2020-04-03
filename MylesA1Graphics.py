@@ -217,7 +217,7 @@ while counter3 < 12:
     drawShingles(shinglesX, 130)
     counter3 = counter3 + 1
 
-# polygons to hide access shingles
+# polygons to hide excess shingles
 pygame.draw.polygon(screen, SKYBLUE, [(740, 250), (500, 150), (800, 150), (900, 250)])
 pygame.draw.polygon(screen, SKYBLUE, [(260, 250), (500, 150), (200, 150), (100, 150)])
 
